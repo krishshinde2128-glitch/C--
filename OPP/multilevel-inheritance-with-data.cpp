@@ -14,7 +14,7 @@ class Sports{
 public:
     int score;
         void mark (){
-            cout<<"whats the score";
+            cout<<"whats the score: ";
             cin>>score;
         }
 };

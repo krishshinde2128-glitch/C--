@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Base class
+
 class Account {
 public:
     string name;
@@ -20,7 +20,7 @@ public:
     }
 };
 
-// Savings Account
+
 class SavingsAccount : public Account {
 public:
     float interestRate;
@@ -39,7 +39,7 @@ public:
     }
 };
 
-// Current Account
+
 class CurrentAccount : public Account {
 public:
     float overdraftLimit;
