@@ -30,7 +30,7 @@ members.txt: Database for member records.
 Clone the repository:
 
 Bash
-git clone https://github.com/your-username/library-management-cpp.git
+git clone https://github.com/krishshinde2128-glitch/Cpp/tree/main/Library%20Management%20system
 Compile the code:
 
 Bash
