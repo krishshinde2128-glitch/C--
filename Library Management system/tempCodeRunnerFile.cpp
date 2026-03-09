@@ -1,9 +1,19 @@
-// Dublicate checker
-            bool exists = false;
-            string checkID, checkT, checkA;
-            int checkS;
-            ifstream checkFile("library.txt");
-            while (checkFile >> checkID >> checkT >> checkA >> checkS) {
-                if (checkID == b.id) {
-                    exists = true;
-                    break;
+class Person {
+public:
+    string name;
+};
+
+
+class Member : public Person {
+public:
+    string memberID;
+};
+
+
+class Book {
+public:
+    string id;
+    string title;
+    string author;
+    int isIssued; 
+};
